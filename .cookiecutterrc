@@ -1,0 +1,44 @@
+# This file exists so you can easily regenerate your project.
+#
+# `cookiepatcher` is a convenient shim around `cookiecutter`
+# for regenerating projects (it will generate a .cookiecutterrc
+# automatically for any template). To use it:
+#
+#    pip install cookiepatcher
+#    cookiepatcher gh:ionelmc/cookiecutter-pylibrary dejima-importer-example
+#
+# See:
+#    https://pypi.org/project/cookiepatcher
+#
+# Alternatively, you can run:
+#
+#    cookiecutter --overwrite-if-exists --config-file=dejima-importer-example/.cookiecutterrc gh:ionelmc/cookiecutter-pylibrary
+
+default_context:
+
+    _extensions:               ['jinja2_time.TimeExtension']
+    _template:                 'gh:coddingtonbear/cookiecutter-pylibrary'
+    command_line_interface:    'no'
+    command_line_interface_bin_name: 'dejima-importer-example'
+    distribution_name:         'dejima-importer-example'
+    email:                     'me@adamcoddington.net'
+    full_name:                 'Adam Coddington'
+    github_actions:            'yes'
+    license:                   'MIT license'
+    package_name:              'dejima_importer_example'
+    pre_commit:                'yes'
+    project_name:              'dejima-importer-example'
+    project_short_description: 'Want to write your own importer for Dejima?  This gives you a solid foundation.'
+    release_date:              'today'
+    repo_hosting:              'github.com'
+    repo_hosting_domain:       'github.com'
+    repo_name:                 'dejima-importer-example'
+    repo_username:             'coddingtonbear'
+    sphinx_docs:               'no'
+    sphinx_docs_hosting:       'https://dejima-importer-example.readthedocs.io/'
+    sphinx_doctest:            'no'
+    sphinx_theme:              'sphinx-rtd-theme'
+    version:                   '0.1.0'
+    website:                   'https://coddingtonbear.net/'
+    year_from:                 '2021'
+    year_to:                   '2021'
